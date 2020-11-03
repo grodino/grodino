@@ -12,11 +12,6 @@ Recently, I have been working with [Fabien Tarissan](https://www-complexnetworks
 
 When I am not working, I like to travel France and Europe by bike (it’s called biketouring !). 
 
-#### Interests
-* Applied mathematics / Signal Processing
-* Machine Learning on Graphs
-* Embedded Systems
-
 #### Last projects
 
 {% for project in site.projects reversed %}<!---
@@ -24,4 +19,9 @@ When I am not working, I like to travel France and Europe by bike (it’s called
     {% increment i_project %}
     -->{% if i_project == 2 %}{% break %}{% endif %}
 {% endfor %}<!---
--->[{{ site.projects[-3].title }}]( {{ site.projects[3].url }})
+-->[{{ site.projects[-3].title }}]( {{ site.projects[3].url }}) ... [others](/projects/)
+
+#### Interests
+* Applied mathematics / Signal Processing
+* Machine Learning on Graphs
+* Embedded Systems
