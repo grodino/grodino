@@ -6,8 +6,8 @@ header:
     teaser: /assets/images/projects/graphia/graph.png
 ---
 
+Existing complex networks share well known structural properties that can be captured by models: Erdos-Renyu, small-world, scale-free ...
 
-`graphia` is a tool created for the "Machine Learning For Network Modeling" module of the ["parcours IA"](https://ens-paris-saclay.fr/etudes/diplome-ens-paris-saclay/parcours-intelligence-artificielle-ia).
+However, these models only describe networks at a given time. The objective of this project was to study and implement models for dynamical networks. For this, I created a tool in Rust : [`graphia`](https://github.com/grodino/graphia/).
 
-TODO
-https://github.com/grodino/graphia
+The report can be found [here](/assets/images/projects/graphia/IA_ML_Models_for_real_mobile_networks.pdf).

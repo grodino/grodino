@@ -19,7 +19,7 @@ When I am not working, I like to travel France and Europe by bike (it’s called
     {% increment i_project %}
     -->{% if i_project == 2 %}{% break %}{% endif %}
 {% endfor %}<!---
--->[{{ site.projects[-3].title }}]( {{ site.projects[3].url }}) ... [others](/projects/)
+-->[{{ site.projects[-3].title }}]( {{ site.projects[-3].url }}) ... [others](/projects/)
 
 #### Interests
 * Applied mathematics / Signal Processing
